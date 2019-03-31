@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Wilfried Langry Web Développeur</title>
+  <meta name="description" content="Vous recrutez un développeur web? Parcourez mon CV en ligne et découvrez mes compétences" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="images/avatar.ico" />
+  <link rel="stylesheet" href="assets/library/Bootstrap/bootstrap-4.3.1-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/TPCV.css"/>
+  <link rel="stylesheet" href="assets/css/progresscircle.css">
+  <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Script Smooth Scroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        // Store hash
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top -75 /* -275 en mode portable */
+        }, 1500, function(){
+          /*// Add hash (#hash) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;*/
+        });
+      } // End if
+    });
+  });
+  </script>
+  <!-- script pour les infobulles -->
+  <script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+<!-- Script Roues de progression -->
+<script src="assets/js/progresscircle.js"></script>
+<script>
+$("onscroll", function(){
+  $('.circlechart').circlechart();
+});
+</script>
+
+
+</head>
+<body>
+  <div id="haut"></div>
+  <!-- barre de navigation -->
+  <nav class="navbar navbar-light bg-white white-gradient navbar-expand-lg sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around col-md-12" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn btn-2" href="#bio">BIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-2" href="#competences">COMPETENCES NUMERIQUES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-2" href="#experiences">EXPERIENCES ET REALISATIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-2" href="#formations">ETUDES ET FORMATIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-2" href="#contact">CONTACTEZ-MOI</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Photo -->
+  <div class="photo row justify-content-center mt-1">
+    <img class="photo_ronde img-fluid rounded-circle shadow p-1 rounded" src="images/photo.jpg" alt="Photo Wilfried Langry">
+  </div>
+  <!-- Nom, Prénom, métier, sofskills-->
+  <div class="col-md-12 justify-content-center text-center mt-5">
+    <h1>WILFRIED LANGRY</h1>
+    <h2 class="mt-4 text-secondary">Développeur Web</h2>
+    <h3 class="text-secondary">Curiosité - Rigueur - Ténacité</h3>
+  </div>
+  <!-- boutons de contact -->
+  <div class="boutons row justify-content-center text-center mt-5">
+    <a href="mailto:wilfried.langry@cegetel.net" target="_blank"><img class="email img-fluid mr-1" src="images/email.png" alt="E-mail"></a>
+    <a href="tel:+33673972255"><img class="smartphone img-fluid mr-1" src="images/smartphone.png" alt="Téléphone"></a>
+    <a href="http://www.linkedin.com/in/wilfriedlangry" target="_blank"><img class="linkedin img-fluid mr-1" src="images/linkedin.png" alt="Linkedin"></a>
+    <a href="https://github.com/kleinst02" target="_blank"><img class="github img-fluid mr-1" src="images/github.png" alt="Github"></a>
+    <a href="https://twitter.com/DigitalFollowe3" target="_blank"><img class="twitter img-fluid" src="images/twitter.png" alt="Twitter"></a>
+  </div>
+  <!-- Biographie -->
+  <div class="biographie justify-content-md-center text-justify mt-5 border border-secondary rounded mx-4 shadow-sm p-3 bg-white rounded" id="bio">
+    <div class="text-center">
+      <h1>QUI SUIS-JE?</h1>
+    </div>
+    <div class="px-4">
+      <p class="mt-4">Vous entendez cette petite musique ? Oui, la petite musique du numérique et de la création web ? Je suis sûr que vous l'avez entendue un jour vous aussi. Après dix ans de management de la Qualité en industrie, cette ritournelle s’est imposée à moi…</p>
+      <p>C’est pourquoi j’ai décidé de m’engager dans une nouvelle aventure, de me réinventer dans un univers en perpétuel mouvement qui me passionne depuis longtemps. Créer des sites et de nouvelles expériences pour les clients et leurs visiteurs, voilà ce qui me motive dorénavant.</p>
+      <p>Pour y arriver, je me consacre pleinement à la préparation du titre professionnel Développeur de sites et d’applications web au sein de la Grande École du Numérique La Manu de Soissons.</p>
+      <p>Je dispose également, à domicile, d'un bureau aménagé et connecté par fibre qui me permet de travailler à distance et d'assister à des visioconférences.</p>
+      <br>
+      <div class="phrase_fin_bio text-center">
+        <h5 class="font-weight-bold">Pour en savoir plus sur moi, parcourez cette page web codée par mes soins!</h5>
+      </div>
+    </div>
+  </div>
+  <!-- Roues des compétences -->
+  <div class="competences justify-content-md-center text-justify mt-4 border border-secondary rounded mx-4 shadow-sm p-3 bg-white rounded" id="competences">
+    <div class="titre_competences row justify-content-center">
+      <div class="align-self-center">
+        <img class="code_ico mr-3" src="images/code.png" alt="Icone Code">
+      </div>
+      <h1 class="text-center">MES COMPÉTENCES NUMÉRIQUES</h1>
+    </div>
+    <div class="competencescodage row justify-content-around">
+      <div class="circlechart mt-4"
+      data-percentage="50">
+      HTML5
+    </div>
+    <div class="circlechart mt-4"
+    data-percentage="40">
+    CSS3
+  </div>
+  <div class="circlechart mt-4"
+  data-percentage="10">
+  PhP
+</div>
+<div class="circlechart mt-4"
+data-percentage="40">
+Photoshop
+</div>
+<div class="circlechart mt-4"
+data-percentage="30">
+InDesign
+</div>
+</div>
+</div>
+<!-- Bloc compétences et réalisations -->
+<div class="skills row justify-content-between mx-4 mt-4">
+  <!-- Bloc Expériences -->
+  <div class="experiences col-md-5 align-content-between border border-secondary rounded mb-4 shadow-sm p-3 bg-white rounded" id="experiences">
+    <div class="container">
+      <div class="row justify-content-center">
+        <img class="quality_ico img-fluid" src="images/quality.png" alt="Expériences">
+        <h1 class="text-center pt-2">MES EXPÉRIENCES</h1>
+      </div>
+    </div>
+    <!-- Bloc agent de maîtrise Qualité -->
+    <div>
+      <h2 class="text-center mt-5">Agent de maîtrise Qualité en agro-industries</h2>
+      <div class="text-justify">
+        <p>J'ai participé au renouvellement annuel de la certification <span>IFS</span> tout en étant Responsable Food Defense de mon unité de production. J'ai également été formé et amené à réaliser des audits internes dans le cadre de notre démarche d'amélioration continue. J'étais également en charge du management de l'équipe qualité au niveau opérationnel.
+          Mes qualités d'autonomie, de rigueur et de synthèse m'ont permit de travailler sur des projets transversaux comme la mise en place du Food Defense ou encore la construction de sas de désinfections innovants.</p>
+        </div>
+        <ul>
+          <li>Responsable sûreté du site de production: réalisation de l'étude de risques, management de l'équipe Food Defense.</li>
+          <li>Participation à l'audit IFS annuel et réalisation des audits internes du site.</li>
+          <li>Réalisation de sas de désinfection pour chariots roulants: Etude de faisabilité, relecture des devis et lancement des travaux.</li>
+          <li>Management de l'équipe qualité lors des absences du Responsable Qualité.</li>
+        </ul>
+      </div>
+      <!-- Bloc Qualiticien -->
+      <div>
+        <h2 class="text-center mt-5">Qualiticien en agro-industries</h2>
+        <div class="text-justify">
+          <p>Grâce à ma formation, ma rigueur et mon organisation, je me suis spécilalisé dans le domaine de la Qualité. J'ai commencé par réaliser les contrôles sur les lignes de fabrication, puis les inspections bonnes pratiques de fabrication (BPF) et bonnes pratiques d'hygiène (BPH). Toujours dans un souci d'amélioration continue, je suis monté en compétences en devenant par la suite animateur HACCP et en animant les réunions Qualité hebdomadaires avec l'ensemble du personnel. J'étais également en chage de la gestion documentaire ainsi que des réclamations clients et fournisseurs du site de fabrication.</p>
+        </div>
+        <ul>
+          <li>Réalisation des prises d'échantillons et des contrôles dimensionnels de production suivant le plan HACCP.</li>
+          <li>Réalisation des prélèvements microbiologiques et préparation pour envoi au prestataire d'analyses.</li>
+          <li>Gestion de la documentation (création, suivi et archivage) du site.</li>
+          <li>Réception, réalisation de l'enquête et réponse aux réclamations clients.</li>
+        </ul>
+      </div>
+      <!-- Bloc Conducteur de ligne -->
+      <div>
+        <h2 class="text-center mt-5">Conducteur de ligne en agro-industries</h2>
+        <div class="text-justify">
+          <p>Au cours de plusieurs missions, j'ai pu apprendre à maîtriser des process de fabrication en industrie agroalimentaire. Ces expériences m'ont permit de d'acquérir la rigueur nécessaire dans le paramètrage des machines et automates servant à la cuisson et au refroidissement des denrées alimentaires. Le suivi des paramètres de fabrication et leur report sur les enregistrements de fabrication constituait également une part importante des compétences acquises lors de ces missions.</p>
+        </div>
+        <ul>
+          <li>Respect des plannings de production.</li>
+          <li>Autocontrôles: suivi des températures de cuisson et de refroidissement.</li>
+          <li>Réglages machines en fonction des mesures effectuées.</li>
+          <li>Respect du port des EPI.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bloc Réalisations -->
+    <div class="realisations col-md-5 border border-secondary rounded mb-4 shadow-sm p-3 bg-white rounded" id="realisations">
+      <div class="row justify-content-center">
+        <img class="portfolio_ico img-fluid mr-2" src="images/portfolio.png" alt="Réalisations">
+        <div><h1 class="text-center pt-2">MES RÉALISATIONS</h1></div>
+      </div>
+      <!-- Bloc site Apnée Passion -->
+      <h2 class="row justify-content-center px-4 mt-5">Site sur l'apnée</h2>
+      <div class="card mx-auto">
+        <a href="https://kleinst02.github.io/Passion_Apnee/index.html" target="_blank"><img class="card-img-top" src="images/apneepassion.jpg" alt="Apnée Passion mon premier site" data-toggle="tooltip" data-placement="left" title="Venez plonger avec moi!"></a>
+        <div class="card-body bg-light">
+          <p class="card-text text-justify">Mon tout premier site entièrement codé en HTML et CSS qui parle de mon sport: l'Apnée. Vous y retrouverez ses disciplines et ses champions.</p>
+        </div>
+      </div>
+      <!-- Bloc Blog Histoire Navale -->
+      <h2 class="text-center px-4 mt-5">Blog d'Histoire Maritime</h2>
+      <div class="card mx-auto">
+        <a href="http://marine1939.blogspot.com/" target="_blank"><img class="card-img-top" src="images/marine1939.jpg" alt="Blog Marine 1939" data-toggle="tooltip" data-placement="left" title="En route moussaillon!"></a>
+        <div class="card-body bg-light">
+          <p class="card-text text-justify">Un blog sur mon autre passion: l'Histoire Maritime. Ce blog présente la flotte française de 1939, l'une des plus importantes de notre histoire</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bloc Formations et études -->
+  <div class="formations border border-secondary rounded ml-4 mr-4 shadow-sm p-3 bg-white rounded" id="formations">
+    <div class="titre_diploma row justify-content-center align-self-center">
+      <img class="diploma_ico img-fluid mr-2" src="images/diploma.png" Alt="Diplômes" />
+      <h1 class="pt-1 text-center">MES FORMATIONS</h1>
+    </div>
+    <!-- Bloc la Manu -->
+    <div class="formation_lamanu row mt-5">
+      <div class="logo_lamanu col-md-3 text-center align-self-center"><a href="https://lamanu.fr/" target="_blank"><img class="img-fluid" src="images/logo_lamanu.jpg" alt="La Manu école du numérique logo" data-toggle="tooltip" data-placement="top" title="Forme les nouveaux talents du numérique"></a></div>
+      <div class="texte_lamanu col-md-9">
+        <h2 class="text-center px-4">Développeur de sites et d'applications Web</h2>
+        <p class="text-justify px-4">Ma reconversion dans le domaine du Développement Web s'est effectuée au sein de La Manu, labellisée Grande Ecole du numérique.</p>
+        <!-- Compétences -->
+        <div class="row justify-content-around">
+          <div class="techniques mx-4 col-sm-5">
+            <p><span class="fa fa-check-square-o mr-2" aria-hidden="true"></span>Compétences développées:</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Javascript</li>
+              <li>PhP</li>
+            </ul>
+          </div>
+          <!-- Frameworks -->
+          <div class="frameworks mx-4 col-sm-5">
+            <p><span class="fa fa-check-square-o mr-2" aria-hidden="true"></span>Frameworks étudiés:</p>
+            <ul>
+              <li>BootStrap</li>
+              <li>AngularJS</li>
+              <li>Symfony</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-justify px-4">Cette formation m'a également permit de me familiariser avec des environnements professionnels sous Linux et Git sous l'angle de la gestion de projet et de l'autoformation.</p>
+      </div>
+    </div>
+    <!-- Bloc Food Defense -->
+    <div class="formation_EXARIS row mt-4 ">
+      <div class="logo_exaris col-md-3 text-center align-self-center"><a href="https://www.exaris.fr/" target="_blank"><img class="img-fluid" src="images/logo-exaris.png" alt="Exaris experts analyse de risque logo" data-toggle="tooltip" data-placement="top" title="Audit - Conseil - Formation"></a></div>
+      <div class="texte_EXARIS col-md-9">
+        <h2 class="text-center px-4">Responsable Food Defense</h2>
+        <p class="text-justify px-4">Dans le cadre de la mise à jour de la certification IFS en version 6, j'ai mis à contribution mon CPF pour me former à la protection de la chaîne alimentaire. Cette formation a été dispensée par la société Exaris et les compétences acquises étaient les suivantes:</p>
+        <ul>
+          <li>Réaliser l'analyse de risque du site</li>
+          <li>Gérer le tableau de bord automatisé</li>
+          <li>Manager l'équipe Food Defense</li>
+          <li>Proposer, étudier et réaliser les améliorations nécessaire à la sûreté du site</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bloc UPJV -->
+    <div class="formation_UPJV row mt-4">
+      <div class="logo_UPJV col-md-3 text-center align-self-center"><a href="https://www.u-picardie.fr/" target="_blank"><img class="img-fluid" src="images/Logo_UPJV.png" alt="UPJV Université Picardie Jules Verne logo" data-toggle="tooltip" data-placement="top" title="Filière d'excellence en terre Picarde"></a></div>
+      <div class="texte_UPJV col-md-9">
+        <h2 class="text-center px-4">Licence Biologie Générale</h2>
+        <p class="text-justify px-4">Cursus réalisé au sein de l'Université de Picardie Jules Verne (UPJV). J'y ai acquis des connaissances en microbiologie, biochimie et géologie tout en réalisant des travaux scientifiques:</p>
+        <ul>
+          <li>Etude de terrain traitant de la répartition d'epèces d'invertébrés sur un larris</li>
+          <li>Etude comparative de deux procédés de dépollution des eaux usées : Bilan de rendement et optimisations</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Bloc contact -->
+  <div class="contact border border-secondary rounded mx-4 mt-4 shadow-sm p-3 bg-white rounded" id="contact">
+    <div class="titre_contact row justify-content-center align-self-center">
+      <div class="align-self-center">
+        <img class="contact_ico mr-2" src="images/mail.png" Alt="Contact" />
+      </div>
+      <div>
+        <h1 class="pt-1 text-center">CONTACTEZ-MOI</h1>
+      </div>
+    </div>
+
+    <!-- CV -->
+    <div class="blocs_contact row">
+      <div class="CV_download col-12 col-md-6 text-center align-self-center mt-4">
+        <h2>Mon profil vous intéresse?</h2>
+        <h5 class="text-center mt-4">Alors, téléchargez mon CV et contactez-moi!</h5>
+        <div class="PDF_ico mt-4"><img class="img-fluid" src="images/pdf.png" alt="CV PDF"></div>
+      </div>
+      <!-- Formulaire -->
+      <div class="formulaire col-12 col-md-6 text-left mt-4">
+        <form method="post" action="traitement.php">
+          <div class="ligne_mail">
+            <input class="email_bas col-7 col-md-8 col-lg-10 mt-1" type="email" name="email" id="email" placeholder="Votre E-mail"/>
+            <button type="submit" class="bouton_envoyer text-white ml-auto"><span class="fa fa-send"></span> Envoyer</button>
+          </div>
+          <input class="objet col-12 mt-1" type="text" placeholder="Objet de votre message"/>
+          <textarea class="col-12 mt-1" placeholder="Rédigez votre message" rows="8"></textarea>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Flèche retour/back -->
+  <div class="fleche_retour text-center mt-4">
+    <a class="js-scrollTo" href="#haut"><img class="img-fluid" src="images/chevron.png" Alt="Retour"></a>
+  </div>
+  <!-- Footer / infos -->
+  <footer class="mt-4">
+    <p class="col-12 text-center">Design by Wilfried Langry, Tous droits réservés.</p>
+    <p class="col-12 text-center">Copyright© 2019</p>
+    <p class="col-12 text-center">Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+  </footer>
+  <!-- Scripts js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
